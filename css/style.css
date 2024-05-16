@@ -280,19 +280,44 @@ nav{
 
 
 /* Sezione Working with Us */
+#working-wus{
+    /* pensare se fare una classe bg-violet */
+    background-color: #9b8ce4;
+    padding-bottom: 30px;
+}
 
+#working-wus .container{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+ }
 
 
 /************ RESPONSIVE MAIN - Sezione Working with Us *************/
 
 /* TABLET */
 @media all and (min-width: 569px){
+    #working-wus .col{
+        width: calc(50% - 10px);
+    }
+    
 
+    #working-wus .container div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 
 /* DESKTOP */
 @media all and (min-width: 1025px){
+    #working-wus .container{
+        width: 70%;
+    }
 
+    #working-wus .col{
+        width: calc((100% / 3) - 10px);
+    }
 
 }
 
