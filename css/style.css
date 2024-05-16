@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -86,8 +86,58 @@ nav{
 
 /* MAIN */
 
+#function{
+    padding-bottom: 50px;
+    /* DEBUG */
+    background-color: blanchedalmond;
+}
 
+#function .container{
+    margin-top: 40px;
+}
 
+.col{
+    background-color: #badbff;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
+    /* DEBUG */
+    height: 100px;
+}
+
+/************ RESPONSIVE MAIN - Sezione funzionalità *************/
+
+/* TABLET */
+@media all and (min-width: 569px){
+    #function .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-2{
+        width: calc((100% / 3)*2 - 5px);
+        background-color: #badbff;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+        /* DEBUG */
+        height: 100px;
+    }
+
+    .col{
+        width: calc((100% / 3) - 10px);
+    }
+}
+
+/* DESKTOP */
+@media all and (min-width: 1025px){
+    #function .container{
+        width: 70%;
+    }
+
+}
+
+/************ RESPONSIVE MAIN - Sezione funzionalità *************/
 
 /* FOOTER */
