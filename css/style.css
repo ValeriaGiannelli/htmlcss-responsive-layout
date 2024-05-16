@@ -144,6 +144,7 @@ a{
     border-radius: 10px;
     margin-bottom: 20px;
     padding-top: 20px;
+    font-size: 1.2em;
 }
 
 /* container interno della card doppia */
@@ -156,6 +157,7 @@ a{
     background-color: #3e79fc;
     padding: 7px 40px;
     color: white;
+    letter-spacing: 2px;
 }
 
 .btn-blue i{
@@ -163,7 +165,10 @@ a{
 }
 
 .col-2 img{
-    width: 100%;
+    max-width: 250px;
+    padding-top: 40px;
+    position: relative;
+    bottom: -4px;
 }
 
 
