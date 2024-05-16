@@ -167,6 +167,8 @@ nav{
 
 
 
+
+
 /* Sezione Strategic Plan */
 #strategic-plan{
     background-color: #9b8ce4;
@@ -217,17 +219,37 @@ nav{
 
 
 
+
+
+
 /* Sezione Testimonial */
 #testimonials{
-
+    padding-bottom: 70px;
     /* DEBUG */
     background-color:blanchedalmond;
-    height: 1000px;
 }
 
 #testimonials .container{
    text-align: center;
    padding-top: 40px;
+}
+
+#testimonials .container h3{
+    font-weight: 500;
+}
+
+#testimonials .container h3, h2, p{
+    margin-bottom: 30px;
+ }
+
+#testimonials .container .col div{
+    width: 90%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    height: 50%;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
@@ -236,15 +258,25 @@ nav{
 /* TABLET */
 @media all and (min-width: 569px){
 
+    #testimonials .container .col{
+       display: flex;
+       align-items: center;
+    }
+
 }
 
 /* DESKTOP */
 @media all and (min-width: 1025px){
-
+    #testimonials .container{
+        width: 70%;
+    }
 
 }
 
 /************ ---------------------------------------- *************/
+
+
+
 
 
 /* Sezione Working with Us */
