@@ -46,6 +46,10 @@ header .container{
     background-color: rgb(0, 255, 38);
 }
 
+nav{
+    display: none;
+}
+
 /************ RESPONSIVE HEADER *************/
 
 /* TABLET */
@@ -54,7 +58,26 @@ header .container{
 @media all and (min-width: 1025px) {
     header .container{
         width: 70%;
-    }    
+    }
+    
+    #hamburger{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;  
+    }
+
+    nav ul a{
+        color: white;
+        text-decoration: none;
+    }
 }
 
 /************ RESPONSIVE HEADER *************/
