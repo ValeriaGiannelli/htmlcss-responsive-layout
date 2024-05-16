@@ -47,6 +47,10 @@ nav{
     display: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /************ RESPONSIVE HEADER *************/
 
@@ -74,7 +78,6 @@ nav{
 
     nav ul a{
         color: white;
-        text-decoration: none;
     }
 
     nav li{
@@ -111,32 +114,59 @@ nav{
     margin-top: 40px; 
 }
 
+
+#function h3{
+    color: #3e79fc;
+    padding-bottom: 20px;
+}
+
+#function p{
+    color: rgb(95, 93, 93);
+    padding-bottom: 20px;
+}
+
+/* caratteristiche card */
 .col{
     background-color: #badbff;
     border-radius: 10px;
     margin-bottom: 20px;
 
+    /* capire se hanno senso */
+    padding: 20px 20px;
+
     /* DEBUG */
     height: 100px;
 }
 
+/* caratteristica card doppia */
 .col-2{
     background-color: #badbff;
     border-radius: 10px;
     margin-bottom: 20px;
-
-    /* DEBUG */
-    height: 100px;
+    padding-top: 20px;
 }
 
+/* container interno della card doppia */
 .col-2 div{
     width: 80%;
     margin: 0 auto;
-    /* DEBUG */
-    height: 50%;
-    background-color: aquamarine;
-    border: 1px solid black;
 }
+
+.btn-blue{
+    background-color: #3e79fc;
+    padding: 7px 40px;
+    color: white;
+}
+
+.btn-blue i{
+    padding-right: 10px;
+}
+
+.col-2 img{
+    width: 100%;
+}
+
+
 
 /************ RESPONSIVE MAIN - Sezione funzionalità *************/
 
@@ -155,7 +185,7 @@ nav{
         margin-bottom: 20px;
 
         /* DEBUG */
-        height: 100px;
+        /* height: 100px; */
     }
 
     #function .col{
@@ -170,8 +200,9 @@ nav{
     }
 
     #function .col-2{
+        padding-left: 20px;
         display: flex;
-        align-items: end;
+        align-items: start;
     }
 
 }
