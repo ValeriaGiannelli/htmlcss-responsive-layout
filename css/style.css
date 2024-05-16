@@ -14,6 +14,10 @@ body{
     margin: 0 auto;
 }
 
+.btn{
+    border-radius: 50px;
+}
+
 
 /* HEADER */
 header{
@@ -25,29 +29,36 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* DEBUG */
     height: 70px;
-    background-color: aqua;
+
 }
 
 #logo{
     width: 30%;
-
-    /* DEBUG */
-    height: 40px;
-    background-color: rgb(0, 255, 38);
 }
 
 #hamburger{
     width: 10%;
-
-    /* DEBUG */
-    height: 40px;
-    background-color: rgb(0, 255, 38);
+    font-size: 25px;
+    color: white;
 }
 
 nav{
     display: none;
+}
+
+nav li{
+    display: flex;
+    align-items: center;
+}
+
+.btn-white{
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.btn-white a{
+    color: black;
 }
 
 /************ RESPONSIVE HEADER *************/
