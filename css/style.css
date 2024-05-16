@@ -327,7 +327,7 @@ nav{
 
 /* Sezione About Us*/
 #about-us .container{
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .cit{
@@ -367,8 +367,25 @@ nav{
 
 
 
-/* Sezione Get started*/
 
+
+
+/* Sezione Get started*/
+#get-started{
+    padding: 50px 0;
+    /* pensare se fare una classe bg-violet */
+    background-color: #9b8ce4;
+    
+}
+
+#get-started .container{
+    padding: 50px 0;
+    max-width: 500px;
+    /* pensare se fare una classe bg-violet */
+    background-color:brown;
+    height: 300px;
+    
+}
 
 
 /************ RESPONSIVE MAIN - Sezione Get started *************/
