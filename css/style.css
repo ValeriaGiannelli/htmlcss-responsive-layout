@@ -47,19 +47,6 @@ nav{
     display: none;
 }
 
-nav li{
-    display: flex;
-    align-items: center;
-}
-
-.btn-white{
-    padding: 10px 20px;
-    background-color: white;
-}
-
-.btn-white a{
-    color: black;
-}
 
 /************ RESPONSIVE HEADER *************/
 
@@ -89,6 +76,21 @@ nav li{
         color: white;
         text-decoration: none;
     }
+
+    nav li{
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn-white{
+        padding: 10px 20px;
+        background-color: white;
+    }
+    
+    .btn-white a{
+        color: black;
+    }
+    
 }
 
 /************ -------------------------- *************/
