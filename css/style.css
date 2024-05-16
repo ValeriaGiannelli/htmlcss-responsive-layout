@@ -9,10 +9,38 @@ body{
     font-family: "PT Sans", sans-serif;
 }
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 /* HEADER */
+header{
+    background-color: #3e79fc;
+    height: 70px;
+}
+
+header .container{
+    
+    /* DEBUG */
+    height: 70px;
+    background-color: aqua;
+}
 
 
+/************ RESPONSIVE HEADER *************/
+
+/* TABLET */
+
+/* DESKTOP */
+@media all and (min-width: 1025px) {
+    header .container{
+        width: 70%;
+    }    
+}
+
+/************ RESPONSIVE HEADER *************/
 
 
 
