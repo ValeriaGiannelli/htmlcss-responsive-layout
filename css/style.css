@@ -326,19 +326,40 @@ nav{
 
 
 /* Sezione About Us*/
+#about-us .container{
+    padding-top: 50px;
+}
 
+.cit{
 
+    /* DEBUG */
+    height: 100px;
+    background-color: brown;
+}
 
 /************ RESPONSIVE MAIN - Sezione About Us *************/
 
 /* TABLET */
 @media all and (min-width: 569px){
+    #about-us .container{
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .info-about-us{
+        width: 50%;
+    }
+
+    .cit{
+        width: 40%;
+    }
 }
 
 /* DESKTOP */
 @media all and (min-width: 1025px){
-
+    #about-us .container{
+        width: 70%;
+    }
 
 }
 
