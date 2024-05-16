@@ -22,12 +22,29 @@ header{
 }
 
 header .container{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* DEBUG */
     height: 70px;
     background-color: aqua;
 }
 
+#logo{
+    width: 30%;
+
+    /* DEBUG */
+    height: 40px;
+    background-color: rgb(0, 255, 38);
+}
+
+#hamburger{
+    width: 10%;
+
+    /* DEBUG */
+    height: 40px;
+    background-color: rgb(0, 255, 38);
+}
 
 /************ RESPONSIVE HEADER *************/
 
