@@ -135,7 +135,7 @@ nav{
         justify-content: space-between;
     }
 
-    .col-2{
+    #function .col-2{
         width: calc((100% / 3)*2 - 5px);
         background-color: #badbff;
         border-radius: 10px;
@@ -145,7 +145,7 @@ nav{
         height: 100px;
     }
 
-    .col{
+    #function .col{
         width: calc((100% / 3) - 10px);
     }
 }
@@ -156,7 +156,7 @@ nav{
         width: 70%;
     }
 
-    .col-2{
+    #function .col-2{
         display: flex;
         align-items: end;
     }
@@ -189,12 +189,10 @@ nav{
 }
 
 
-/************ RESPONSIVE MAIN - Sezione funzionalità *************/
+/************ RESPONSIVE MAIN - Sezione Strategi plan *************/
 
 /* TABLET */
-@media all and (min-width: 569px){
 
-}
 
 /* DESKTOP */
 @media all and (min-width: 1025px){
@@ -220,7 +218,17 @@ nav{
 
 
 /* Sezione Testimonial */
+#testimonials{
 
+    /* DEBUG */
+    background-color:blanchedalmond;
+    height: 1000px;
+}
+
+#testimonials .container{
+   text-align: center;
+   padding-top: 40px;
+}
 
 
 /************ RESPONSIVE MAIN - Sezione Testimonial *************/
