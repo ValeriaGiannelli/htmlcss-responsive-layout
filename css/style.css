@@ -80,7 +80,7 @@ nav{
     }
 }
 
-/************ RESPONSIVE HEADER *************/
+/************ -------------------------- *************/
 
 
 
@@ -95,7 +95,7 @@ nav{
 }
 
 #function .container{
-    margin-top: 40px;
+    margin-top: 40px; 
 }
 
 .col{
@@ -163,6 +163,148 @@ nav{
 
 }
 
+/******** --------------------------------------------------*******/
+
+
+
+/* Sezione Strategic Plan */
+#strategic-plan{
+    background-color: #9b8ce4;
+    padding-bottom: 30px;
+}
+
+#strategic-plan .container{
+    padding-top: 40px;
+    /* DEBUG */
+    height: 400px;
+    background-color: rgb(174, 120, 120);
+}
+
+#strategic-plan .container div{
+    width: 100%;
+    /* DEBUG */
+    height: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
 /************ RESPONSIVE MAIN - Sezione funzionalità *************/
+
+/* TABLET */
+@media all and (min-width: 569px){
+
+}
+
+/* DESKTOP */
+@media all and (min-width: 1025px){
+
+    #strategic-plan .container{
+        width: 70%;
+        display: flex;
+        align-items: end;
+    }
+
+    #strategic-plan .container div{
+        width: 50%;
+
+        /* DEBUG */
+        height: 100%;
+    }
+    
+
+}
+
+/************ ---------------------------------------- *************/
+
+
+
+/* Sezione Testimonial */
+
+
+
+/************ RESPONSIVE MAIN - Sezione Testimonial *************/
+
+/* TABLET */
+@media all and (min-width: 569px){
+
+}
+
+/* DESKTOP */
+@media all and (min-width: 1025px){
+
+
+}
+
+/************ ---------------------------------------- *************/
+
+
+/* Sezione Working with Us */
+
+
+
+/************ RESPONSIVE MAIN - Sezione Working with Us *************/
+
+/* TABLET */
+@media all and (min-width: 569px){
+
+}
+
+/* DESKTOP */
+@media all and (min-width: 1025px){
+
+
+}
+
+/************ ---------------------------------------- *************/
+
+
+
+/* Sezione About Us*/
+
+
+
+/************ RESPONSIVE MAIN - Sezione About Us *************/
+
+/* TABLET */
+@media all and (min-width: 569px){
+
+}
+
+/* DESKTOP */
+@media all and (min-width: 1025px){
+
+
+}
+
+/************ ---------------------------------------- *************/
+
+
+
+/* Sezione Get started*/
+
+
+
+/************ RESPONSIVE MAIN - Sezione Get started *************/
+
+/* TABLET */
+@media all and (min-width: 569px){
+
+}
+
+/* DESKTOP */
+@media all and (min-width: 1025px){
+
+
+}
+
+/************ ---------------------------------------- *************/
+
+
+
+/* FOOTER */
+
+
+
 
 /* FOOTER */
