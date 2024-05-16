@@ -7,6 +7,7 @@
 
 body{
     font-family: "PT Sans", sans-serif;
+    line-height: 1.7em;
 }
 
 .container{
@@ -106,8 +107,6 @@ a{
 
 #function{
     padding-bottom: 50px;
-    /* DEBUG */
-    background-color: blanchedalmond;
 }
 
 #function .container{
@@ -130,12 +129,10 @@ a{
     background-color: #badbff;
     border-radius: 10px;
     margin-bottom: 20px;
+    text-align: center;
 
     /* capire se hanno senso */
     padding: 20px 20px;
-
-    /* DEBUG */
-    height: 100px;
 }
 
 /* caratteristica card doppia */
@@ -144,7 +141,6 @@ a{
     border-radius: 10px;
     margin-bottom: 20px;
     padding-top: 20px;
-    font-size: 1.2em;
 }
 
 /* container interno della card doppia */
@@ -153,6 +149,7 @@ a{
     margin: 0 auto;
 }
 
+/* bottone blu */
 .btn-blue{
     background-color: #3e79fc;
     padding: 7px 40px;
@@ -164,13 +161,23 @@ a{
     padding-right: 10px;
 }
 
+/* contenitore immagine */
+#demo-img-container{
+    display: flex;
+    align-items: end;
+}
+
 .col-2 img{
     max-width: 250px;
     padding-top: 40px;
-    position: relative;
-    bottom: -4px;
 }
 
+/* caratteristiche delle icone nelle card singole */
+#function .col i{
+    font-size: 70px;
+    color: #3e79fc;
+    padding: 10px 0 20px;
+}
 
 
 /************ RESPONSIVE MAIN - Sezione funzionalità *************/
@@ -205,9 +212,12 @@ a{
     }
 
     #function .col-2{
-        padding-left: 20px;
+        padding: 20px 20px 0;
         display: flex;
-        align-items: start;
+    }
+
+    .col-2 div{
+        width: 48%;
     }
 
 }
@@ -287,7 +297,7 @@ a{
     font-weight: 500;
 }
 
-#testimonials .container h3, h2, p{
+#testimonials .container h3, #testimonials .container h2, #testimonials .container p{
     margin-bottom: 30px;
  }
 
