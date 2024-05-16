@@ -86,6 +86,8 @@ nav{
 
 /* MAIN */
 
+/* Sezione funzionalità */
+
 #function{
     padding-bottom: 50px;
     /* DEBUG */
@@ -103,6 +105,24 @@ nav{
 
     /* DEBUG */
     height: 100px;
+}
+
+.col-2{
+    background-color: #badbff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    /* DEBUG */
+    height: 100px;
+}
+
+.col-2 div{
+    width: 80%;
+    margin: 0 auto;
+    /* DEBUG */
+    height: 50%;
+    background-color: aquamarine;
+    border: 1px solid black;
 }
 
 /************ RESPONSIVE MAIN - Sezione funzionalità *************/
@@ -134,6 +154,11 @@ nav{
 @media all and (min-width: 1025px){
     #function .container{
         width: 70%;
+    }
+
+    .col-2{
+        display: flex;
+        align-items: end;
     }
 
 }
