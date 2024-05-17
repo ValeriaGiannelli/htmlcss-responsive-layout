@@ -709,9 +709,18 @@ footer{
 
 footer .container{
     text-align: center;
-    padding: 30px 0;
     color: white;
-    max-width: 300px;
+    max-width: 380px;
+    line-height: normal;
+}
+
+footer .container p{
+    padding: 30px 0;
+}
+
+footer .container a{
+    color: var(--h2-color-odd);
+    text-decoration: underline;
 }
 
 /************ RESPONSIVE FOOTER *************/
@@ -728,7 +737,3 @@ footer .container{
 }
 
 /************ ---------------------------------------- *************/
-
-
-
-/* FOOTER */
