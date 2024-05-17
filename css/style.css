@@ -514,11 +514,13 @@ a{
     padding: var(--h2-padding);
 }
 
+/* imm in relative per mettere quote */
 #about-us .img-profilo{
     padding-top: 40px;
     position: relative;
 }
 
+/* caratteristiche quote e posizionamento sopra immagine */
 #about-us .img-profilo i{
     position: absolute;
     top: 40px;
@@ -554,14 +556,17 @@ a{
         padding-bottom: 125px;
     }
 
+    /* modifica grandezza sezione info */
     .info-about-us{
         width: 50%;
     }
 
+    /* modifica grandezza citazione */
     .cit{
         width: 40%;
     }
 
+    /* ingrandimento titolo e immagine profilo */
     .info-about-us h2{
         font-size: 3.3rem;
     }
@@ -600,17 +605,21 @@ a{
     background-color: var(--bg-even);
 }
 
+
+/* container degli elementi */
+#get-started .container{
+    max-width: 528px;
+    text-align: center;
+    color: white;    
+}
+
+/* prende solo get started */
 #get-started span:first-child{
     letter-spacing: 2px;
     color:rgb(199, 198, 219);
 }
 
-#get-started .container{
-    max-width: 500px;
-    text-align: center;
-    color: white;    
-}
-
+/* caratteristiche primo h2 */
 #get-started .container h2:first-of-type{
     font-size: 30px;
     font-weight: bold;
@@ -618,6 +627,7 @@ a{
     line-height: 40px;
 }
 
+/* caratteristiche secondo h2 */
 #get-started .container h2:last-of-type{
     color: #f7c561;
     font-size: 60px;
@@ -629,6 +639,7 @@ a{
     margin-bottom: 40px;
 }
 
+/* caratteristiche bottone */
 #get-started a.card-white{
     padding: 15px 60px;
     color: var(--h2-color-odd);
@@ -637,6 +648,7 @@ a{
     margin: 45px 0;
 }
 
+/* caratteristiche copyright e privacy */
 #get-started .container span:last-child{
     display: block;
     margin-top: 40px;
@@ -654,6 +666,30 @@ a{
 /* TABLET */
 @media all and (min-width: 569px){
 
+    /* modifica primo h2 */
+    #get-started .container h2:first-of-type{
+        font-size: 41px;
+    }
+
+    /* modifica secondo h2 */
+    #get-started .container h2:last-of-type{
+        font-size: 80px;
+    }
+
+    /* modifica bottone */
+    #get-started a.card-white{
+        padding: 25px 75px;
+    }
+
+}
+
+/* Tablet intermedio */
+@media all and (min-width: 621px) {
+
+    /* ingrandisce font di Simple, transaperent pricing */
+    #get-started .container h2:first-of-type{
+        font-size: 45px;
+    } 
 }
 
 /* DESKTOP */
