@@ -440,9 +440,7 @@ a{
     text-align: start;
     border-radius: 20px;
     padding: 40px 25px;
-
-    /* aspect ratio? */
-    /* aspect-ratio: 1 / 1; */
+    aspect-ratio: 1 / 1;
 }
 
 .card-white span, .card-white h3{
