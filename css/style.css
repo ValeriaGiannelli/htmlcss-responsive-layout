@@ -625,6 +625,28 @@ a{
     padding: 20px 0 40px;
 }
 
+#get-started p{
+    margin-bottom: 40px;
+}
+
+#get-started a.card-white{
+    padding: 15px 60px;
+    color: var(--h2-color-odd);
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 45px 0;
+}
+
+#get-started .container span:last-child{
+    display: block;
+    margin-top: 40px;
+}
+
+#get-started .container span a{
+    color: white;
+    text-decoration: underline;
+}
+
 
 
 /************ RESPONSIVE MAIN - Sezione Get started *************/
