@@ -394,7 +394,7 @@ a{
         text-align: start;
         margin: 0 50px 0 10px;
   }
-    }
+    
     
     #testimonials .container .col .img-profilo{
         width: 60%;
@@ -424,9 +424,46 @@ a{
 
 #working-wus .container{
     text-align: center;
-    padding-top: 40px;
-    color: white;
  }
+
+#working-wus h2{
+    font-size: 2rem;
+    /* fare una var? */
+    line-height: 40px;
+    color: white;
+    padding: var(--h2-padding);
+}
+
+#working-wus .card-white{
+    text-align: start;
+    border-radius: 20px;
+    padding: 40px 25px;
+}
+
+.card-white span, .card-white h3{
+    color: var(--h2-color-odd);
+    padding: 20px 0;
+} 
+
+.card-white span{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.card-white h3{
+    font-size: 1.5rem;
+}
+
+.card-white p{
+    color: #6e6c6c;
+    padding-bottom: 30px;
+}
+
+.card-white .btn-blue{
+    background-color: var(--bg-even);
+    font-weight: 900;
+}
+ 
 
 
 /************ RESPONSIVE MAIN - Sezione Working with Us *************/
