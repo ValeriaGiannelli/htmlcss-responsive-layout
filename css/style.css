@@ -15,8 +15,12 @@ body{
     margin: 0 auto;
 }
 
-.btn{
-    border-radius: 50px;
+
+:root{
+    --bg-even: #9593e4;
+    --text-color-even: white;
+    --h2-color-odd: #9593e4;
+    --h2-padding: 50px 0;
 }
 
 
@@ -87,6 +91,7 @@ a{
     }
     
     .btn-white{
+        border-radius: 50px;
         padding: 10px 20px;
         background-color: white;
     }
@@ -151,6 +156,7 @@ a{
 
 /* bottone blu */
 .btn-blue{
+    border-radius: 50px;
     background-color: #3e79fc;
     padding: 7px 40px;
     color: white;
@@ -196,8 +202,6 @@ a{
         border-radius: 10px;
         margin-bottom: 20px;
 
-        /* DEBUG */
-        /* height: 100px; */
     }
 
     #function .col{
@@ -230,23 +234,54 @@ a{
 
 /* Sezione Strategic Plan */
 #strategic-plan{
-    background-color: #9b8ce4;
+    background-color: var(--bg-even);
     padding-bottom: 30px;
 }
 
 #strategic-plan .container{
     padding-top: 40px;
-    /* DEBUG */
-    height: 400px;
-    background-color: rgb(174, 120, 120);
 }
 
 #strategic-plan .container div{
     width: 100%;
-    /* DEBUG */
-    height: 50%;
+}
+
+
+#strategic-plan img{
+    width: 100%;
+}
+
+#strategic-plan h2{
+    font-size: 2rem;
+    color: var(--text-color-even);
+    padding: var(--h2-padding);
+}
+
+#strategic-plan p{
+    color: var(--text-color-even);
+    padding-bottom: 40px;
+}
+
+.card-white{
+    border-radius: 50px;
+    padding: 30px 20px;
     background-color: white;
-    border: 1px solid black;
+    text-align: center;
+}
+
+#strategic-plan .card-white h2, #strategic-plan .card-white p{
+    color: black;
+}
+
+#strategic-plan .card-white h2{
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.card-white i{
+    background-color: var(--bg-even);
+    border-radius: 100px;
+    padding: 20px 22px;
 }
 
 
@@ -262,15 +297,17 @@ a{
         width: 70%;
         display: flex;
         align-items: end;
+        justify-content: space-between;
     }
 
     #strategic-plan .container div{
-        width: 50%;
-
-        /* DEBUG */
-        height: 100%;
+        width: 48%;
     }
     
+    
+    #strategic-plan .card-white img{
+        width: 70%;
+    }
 
 }
 
@@ -340,8 +377,7 @@ a{
 
 /* Sezione Working with Us */
 #working-wus{
-    /* pensare se fare una classe bg-violet */
-    background-color: #9b8ce4;
+    background-color: var(--bg-even);
     padding-bottom: 30px;
 }
 
@@ -432,8 +468,7 @@ a{
 /* Sezione Get started*/
 #get-started{
     padding: 50px 0;
-    /* pensare se fare una classe bg-violet */
-    background-color: #9b8ce4;
+    background-color: var(--bg-even);
     
 }
 
