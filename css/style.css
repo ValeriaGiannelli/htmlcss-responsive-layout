@@ -516,6 +516,15 @@ a{
 
 #about-us .img-profilo{
     padding-top: 40px;
+    position: relative;
+}
+
+#about-us .img-profilo i{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 60px;
+    color: var(--h2-color-odd);
 }
 
 #citazione span{
