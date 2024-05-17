@@ -560,6 +560,22 @@ a{
     .cit{
         width: 40%;
     }
+
+    .info-about-us h2{
+        font-size: 3.3rem;
+    }
+
+    #about-us .img-profilo{
+        max-width: 230px;
+    }
+}
+
+/* TABLET intermedio */
+@media all and (min-width: 644px) {
+    .info-about-us h2{
+        font-size: 4.3rem;
+    }
+    
 }
 
 /* DESKTOP */
