@@ -598,18 +598,33 @@ a{
 #get-started{
     padding: 50px 0;
     background-color: var(--bg-even);
-    
+}
+
+#get-started span:first-child{
+    letter-spacing: 2px;
+    color:rgb(199, 198, 219);
 }
 
 #get-started .container{
-    padding: 50px 0;
     max-width: 500px;
     text-align: center;
-    /* pensare se fare una classe bg-violet */
-    background-color:brown;
-    height: 300px;
-    
+    color: white;    
 }
+
+#get-started .container h2:first-of-type{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0 30px;
+    line-height: 40px;
+}
+
+#get-started .container h2:last-of-type{
+    color: #f7c561;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px 0 40px;
+}
+
 
 
 /************ RESPONSIVE MAIN - Sezione Get started *************/
