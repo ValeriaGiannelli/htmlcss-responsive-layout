@@ -26,8 +26,13 @@ body{
 
 /* HEADER */
 header{
+    width: 100%;
     background-color: #3e79fc;
     height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 header .container{
@@ -112,10 +117,7 @@ a{
 
 #function{
     padding-bottom: 50px;
-}
-
-#function .container{
-    margin-top: 40px; 
+    margin-top: 110px;
 }
 
 
@@ -522,11 +524,12 @@ a{
 
 /* caratteristiche quote e posizionamento sopra immagine */
 #about-us .img-profilo i{
+    font-size: 60px;
+    color: var(--h2-color-odd);
     position: absolute;
     top: 40px;
     right: 0;
-    font-size: 60px;
-    color: var(--h2-color-odd);
+    z-index: 5;
 }
 
 #citazione span{
