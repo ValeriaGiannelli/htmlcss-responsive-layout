@@ -438,6 +438,9 @@ a{
     text-align: start;
     border-radius: 20px;
     padding: 40px 25px;
+
+    /* aspect ratio? */
+    /* aspect-ratio: 1 / 1; */
 }
 
 .card-white span, .card-white h3{
@@ -446,6 +449,7 @@ a{
 } 
 
 .card-white span{
+    display: block;
     font-size: 40px;
     font-weight: 900;
 }
@@ -475,7 +479,7 @@ a{
     }
     
 
-    #working-wus .container div{
+    #working-wus .container>div{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
