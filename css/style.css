@@ -504,15 +504,36 @@ a{
 
 /* Sezione About Us*/
 #about-us .container{
-    padding: 50px 0;
+    padding: 30px 0;
+    line-height: 40px;
 }
 
-.cit{
-
-    /* DEBUG */
-    height: 100px;
-    background-color: brown;
+.info-about-us h2{
+    color: var(--h2-color-odd);
+    font-size: 2.3rem;
+    padding: var(--h2-padding);
 }
+
+#about-us .img-profilo{
+    padding-top: 40px;
+}
+
+#citazione span{
+    display: block;
+    color: var(--bg-even);
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+#citazione .btn-blue{
+    letter-spacing: normal;
+    padding: 7px 15px;
+    background-color: var(--bg-even);
+}
+
+
 
 /************ RESPONSIVE MAIN - Sezione About Us *************/
 
